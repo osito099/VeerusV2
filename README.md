@@ -8,15 +8,12 @@ Maybe you can mention me or this repo in the acknowledgements too
 -->
 <div align="center">
 
-  <img src="logo.png" alt="logo" width="200" height="auto" />
-  <h1>Veerus</h1>
+
+  <h1>Veerus Miner</h1>
   <p>
-The Best Multifunctional Computer Virus Including : RAT, Stealer, XMR Miner, Token Grabber, DM ALL....
+The Best Multifunctional Computer Virus Including a RAT a Stealer and an XMR Miner
   </p>
   
-<!-- About the Project --> 
-## Video tutorial
-https://www.youtube.com/watch?v=0AFyxSoZpoY
 
 
 <!-- About the Project -->
@@ -24,31 +21,11 @@ https://www.youtube.com/watch?v=0AFyxSoZpoY
   
  
 <!-- About the Project -->
-## :star2: Discord server : https://discord.gg/7GkfBzRQXX
+## :star2: Discord server : https://discord.gg/MGHu5UqVbs
   
   
 ## :star2: About the Project
-Veerus is a multifunctional virus including : RAT, Crypto Miner, Stealers, Token Grabber, DM ALL and much more...
-
-<!-- Support the project -->
-# :tada: Support the project : 
-### :star2: Paypal :
-angelique.cloutier60@yahoo.com
-
-
-### :star2: Coinbase :
-sxzuu@yahoo.com
-
-
-### :star2: Crypto :
-
-BTC : soon
-
-TRX : soon
-
-LTC : soon
-
-ETH : soon
+Veerus (V2) is a multifunctional virus including : RAT, Crypto Miner, Stealers, Token Grabber, DM ALL and much more...
 
 
 <!-- Getting Started -->
@@ -57,35 +34,31 @@ ETH : soon
 <!-- Prerequisites -->
 ### :bangbang: Prerequisite 
 
-This project uses python
+This project uses NodeJS
 
-```sudo apt install python```
+```sudo apt install nodejs```
 
-Windows : Install on <a href="https://python.org">python.org</a>
+Windows : Install on <a href="https://nodejs.org">nodejs.org</a>
 <!-- Installation -->
 ### :gear: Installation
 
-Install requirement with python and pip
+Install requirement with NodeJs and NPM
 
   
-`pip install -r req.txt
-`
-  
-Or 
-  
-`py -m pip install -r req.txt
-`
+`npm i`
+
+
 <!-- Running Tests -->
 ### :test_tube: Compile
 
-To Compile, launch this and fill out the form :
-
 `
-Edit client.py and set your XMR wallet (don't do it if you wan't to support me !)
+Edit index and edit the options (xmr adress, channel id (for the rat), bitcoin adress for the ransomware,...)
 `
 
 
-`py compile.py
+`
+npm install pkg -g
+pkg .
 `
 
 
@@ -103,51 +76,24 @@ Edit client.py and set your XMR wallet (don't do it if you wan't to support me !
 
 
 
-🔜 Python code remote execution
+🔜 NodeJS Remote code exec
 
-🔜 Telegram sessions grabber
-
-🔜 Camera stream
+🔜 Discord/Chrome Grabber
 
 🔜 Spam servers on launch.
 
-🔜 DM all friends on discord when launched (if chosen)
-
-
-
-💚 Telegram Session Stealer  
   
 💚 Discord RAT
 
-💚 DM All Friends on discord when Veerus is launched.
-
-💚 Anti VM
-
-💚 Disable Task Manager
-
-💚 Steal .txt, .pdf, .docx files in Desktop/Docs directory
-
-💚 Browser autofill, history, C r 3 d 1 t c 4 r d grabber
-
-💚 Browser Password Stealer (Firefox/Chrome/Chromium)
-
-💚 Discord Webhook support
+💚 Ransomware
 
 💚 Hidden Crypto mining (XMR)
 
-💚 Discord logger
+💚 File grabbers (custom path & regex)
 
-💚 Windows/Linux Browser cookies
+💚 Discord bot support
 
-💚 undetected by Smartscreen and Windows defender
-
-
-💚 And much more...
-
-
-
-🚫 Arch Linux support cause I don't have this OS and I have the flemme frère
-
+💚 undetected by Windows defender & Virustotal
 
 
 <!-- Contact -->
@@ -159,4 +105,4 @@ Emails :
  angelique.cloutier60@yahoo.com 
  sxzuu@yahoo.com 
 
-Discord Server : https://discord.gg/jde3wwSVDa (open ticket)
+Discord Server : https://discord.gg/MGHu5UqVbs (open ticket)
