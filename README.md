@@ -82,7 +82,9 @@ pkg .
 
 🔜 Spam servers on launch.
 
-  
+
+💚 Startup
+
 💚 Discord RAT
 
 💚 Ransomware
