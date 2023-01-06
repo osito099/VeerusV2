@@ -17,7 +17,7 @@ The Best Multifunctional Computer Virus Including a RAT a Stealer and an XMR Min
 
 
 <!-- About the Project -->
-## :warning: EDUCATIONAL PURPOSES ONLY
+## :warning: THIS PROJET IS NOT FINISHED
   
  
 <!-- About the Project -->
